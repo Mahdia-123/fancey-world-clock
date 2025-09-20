@@ -51,7 +51,10 @@ axios
 // Display searched city time
 function displayCity(response) {
   console.log("City Time:", response.data);
-
+  const cities1 = document.querySelector(".cities");
+  if (cities1) {
+    cities1.style.display = "flex"; // or "block", depending on your layout
+  }
   const cityElement = document.getElementById("city");
   const timeElement = document.getElementById("time");
 

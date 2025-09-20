@@ -24,7 +24,7 @@
     />
 
     <link rel="stylesheet" href="src/style.css" />
-    <title>World Clock</title>
+    <title>World Weather Clock App</title>
   </head>
   <body>
     <div class="container">
@@ -43,7 +43,7 @@
       </p>
       <div>
         <div class="time mb-1" id="kabulTime"></div>
-        <div class="date mt-3" id="kabulDate">Friday, August 22</div>
+        <div class="date mt-3" id="kabulDate"></div>
       </div>
 
       <div class="all-details">
@@ -51,12 +51,13 @@
           <div class="temperaure-icon">
             <i class="fa-solid fa-cloud-bolt"></i>
           </div>
-          <div class="temperature">22℃</div>
+          <div class="temperature"></div>
         </div>
         <div class="extra-details" id="extra-details"></div>
       </div>
 
-      <div class="cities">
+      <div class="cities" id="cities1">
+        <div id="loader" class="loader" style="display: none"></div>
         <div class="cities-details-part">
           <div class="city" id="city"></div>
           <div class="temperature-detail-cities-part mt-3"></div>
