@@ -18,7 +18,7 @@ form {
 input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #679eac;
+  border: 1px solid #054e4e;
   border-radius: 8px;
   background-color: #081c20;
   color: #abe6f4;
@@ -30,10 +30,10 @@ input {
 .btn {
   width: 20%;
   padding: 12px;
-  border: none;
+  border: 1px solid #054e4e;
   border-radius: 8px;
   color: #abe6f4;
-  background: #054e4e;
+  background: #081c20;
   font-weight: bold;
   font-size: 16px;
 }
